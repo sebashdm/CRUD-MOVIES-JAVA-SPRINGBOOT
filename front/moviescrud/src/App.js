@@ -64,7 +64,7 @@ const Form = () =>{
 
 
 
-const VideoGameList = () =>{
+const MoviesList = () =>{
 
   const {dispatch, state } = useContext(Store);
 
@@ -126,7 +126,7 @@ const StoreProvider = ({ children }) =>{
 function App() {
   return <StoreProvider>
             <Form />
-            <VideoGameList />
+            <MoviesList />
          </StoreProvider>
 }
 
